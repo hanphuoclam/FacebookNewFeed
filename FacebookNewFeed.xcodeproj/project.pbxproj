@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2105EE620E8F6D90033A582 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2105EE520E8F6D90033A582 /* CustomTabBarController.swift */; };
+		A2105EE820E9F0150033A582 /* OtherControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2105EE720E9F0150033A582 /* OtherControllers.swift */; };
 		A2FE49A620E523DB00CD1652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FE49A520E523DB00CD1652 /* AppDelegate.swift */; };
 		A2FE49A820E523DB00CD1652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FE49A720E523DB00CD1652 /* ViewController.swift */; };
-		A2FE49AB20E523DB00CD1652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FE49A920E523DB00CD1652 /* Main.storyboard */; };
 		A2FE49AD20E523DB00CD1652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FE49AC20E523DB00CD1652 /* Assets.xcassets */; };
 		A2FE49B020E523DB00CD1652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FE49AE20E523DB00CD1652 /* LaunchScreen.storyboard */; };
+		A2FE49BA20E5426B00CD1652 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FE49B920E5426B00CD1652 /* FeedCell.swift */; };
+		A2FE49BC20E67C9C00CD1652 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FE49BB20E67C9C00CD1652 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2105EE520E8F6D90033A582 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		A2105EE720E9F0150033A582 /* OtherControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherControllers.swift; sourceTree = "<group>"; };
 		A2FE49A220E523DB00CD1652 /* FacebookNewFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookNewFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FE49A520E523DB00CD1652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2FE49A720E523DB00CD1652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2FE49AA20E523DB00CD1652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2FE49AC20E523DB00CD1652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2FE49AF20E523DB00CD1652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2FE49B120E523DC00CD1652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FE49B920E5426B00CD1652 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		A2FE49BB20E67C9C00CD1652 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				A2FE49A520E523DB00CD1652 /* AppDelegate.swift */,
 				A2FE49A720E523DB00CD1652 /* ViewController.swift */,
-				A2FE49A920E523DB00CD1652 /* Main.storyboard */,
 				A2FE49AC20E523DB00CD1652 /* Assets.xcassets */,
 				A2FE49AE20E523DB00CD1652 /* LaunchScreen.storyboard */,
 				A2FE49B120E523DC00CD1652 /* Info.plist */,
+				A2FE49B920E5426B00CD1652 /* FeedCell.swift */,
+				A2FE49BB20E67C9C00CD1652 /* Post.swift */,
+				A2105EE520E8F6D90033A582 /* CustomTabBarController.swift */,
+				A2105EE720E9F0150033A582 /* OtherControllers.swift */,
 			);
 			path = FacebookNewFeed;
 			sourceTree = "<group>";
@@ -124,7 +133,6 @@
 			files = (
 				A2FE49B020E523DB00CD1652 /* LaunchScreen.storyboard in Resources */,
 				A2FE49AD20E523DB00CD1652 /* Assets.xcassets in Resources */,
-				A2FE49AB20E523DB00CD1652 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +145,16 @@
 			files = (
 				A2FE49A820E523DB00CD1652 /* ViewController.swift in Sources */,
 				A2FE49A620E523DB00CD1652 /* AppDelegate.swift in Sources */,
+				A2105EE820E9F0150033A582 /* OtherControllers.swift in Sources */,
+				A2105EE620E8F6D90033A582 /* CustomTabBarController.swift in Sources */,
+				A2FE49BA20E5426B00CD1652 /* FeedCell.swift in Sources */,
+				A2FE49BC20E67C9C00CD1652 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2FE49A920E523DB00CD1652 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2FE49AA20E523DB00CD1652 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2FE49AE20E523DB00CD1652 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
